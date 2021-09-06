@@ -8,8 +8,8 @@ import { Observable } from 'rxjs';
 export class EmployeeService {
 
  
-  private baseUrl = 'http://localhost:9090/api/v1/employees';
-  //private baseUrl= 'http://3.141.112.76:9090/api/v1/employees';
+  //private baseUrl = 'http://localhost:9090/api/v1/employees';
+  private baseUrl= 'http://18.220.19.49:9090/api/v1/employees';
   constructor(private http: HttpClient) { }
 
   getEmployee(id: number): Observable<any> {
